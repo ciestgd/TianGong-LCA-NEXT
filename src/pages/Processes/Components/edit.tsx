@@ -210,7 +210,7 @@ const ProcessEdit: FC<Props> = ({ id, lang, buttonType, actionRef, setViewDrawer
             ]}
             dataType={'Process'}
             formRef={formRefEdit}
-            onData={handletFromData}
+            onData={() => {}}
           />
         </Card>
 

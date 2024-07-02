@@ -56,7 +56,7 @@ const UnitGroupEdit: FC<Props> = ({ id, buttonType, lang, actionRef, setViewDraw
     };
 
     const handletFromData = (data: any) => {
-        setFromData({ ...fromData, data });
+        // setFromData({ ...fromData, data });
     };
 
     const handletUnitData = (data: any) => {

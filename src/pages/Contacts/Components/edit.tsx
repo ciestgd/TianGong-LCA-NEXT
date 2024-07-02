@@ -74,7 +74,7 @@ const ContactEdit: FC<Props> = ({ id, buttonType, actionRef, lang, setViewDrawer
               ]}
               dataType={'Contact'}
               formRef={formRefEdit}
-              onData={handletFromData}
+              onData={() => {}}
             />
           </Card>
           <Card size="small" title={'Contact Address'}>

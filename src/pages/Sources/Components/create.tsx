@@ -62,7 +62,7 @@ const SourceCreate: FC<Props> = ({ actionRef, lang }) => {
                         ]}
                         dataType={'Source'}
                         formRef={formRefCreate}
-                        onData={handletFromData}
+                        onData={() => {}}
                     />
                 </Card>
                 <br />

@@ -62,7 +62,7 @@ const ContactCreate: FC<Props> = ({ lang, actionRef }) => {
               ]}
               dataType={'Contact'}
               formRef={formRefCreate}
-              onData={handletFromData}
+              onData={() => {}}
             />
           </Card>
           <Card size="small" title={'Contact Address'}>

@@ -197,7 +197,7 @@ const ProcessCreate: FC<Props> = ({ lang, actionRef }) => {
             ]}
             dataType={'Process'}
             formRef={formRefCreate}
-            onData={handletFromData}
+            onData={() => {}}
           />
         </Card>
 

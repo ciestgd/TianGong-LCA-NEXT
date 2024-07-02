@@ -55,7 +55,7 @@ const UnitGroupCreate: FC<Props> = ({ lang, actionRef }) => {
   };
 
   const handletFromData = (data: any) => {
-    setFromData({ ...fromData, data });
+    // setFromData({ ...fromData, data });
   };
 
   const handletUnitData = (data: any) => {
